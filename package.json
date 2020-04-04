@@ -3,12 +3,30 @@
   "version": "1.0.1",
   "description": "Migrates all your repos from Bitbucket to Github Teams",
   "main": "index.js",
+  "engines": {
+    "node": ">=11.0.0"
+  },
   "scripts": {
     "test": "echo No tests, sorry"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Innablr/bitbucket-migrate.git"
+  },
   "author": "Alex Bukharov <alex.bukharov@innablr.com.au",
   "license": "ISC",
-  "keywords": ["bitbucket", "github", "migration", "cli", "utility"],
+  "homepage": "https://github.com/Innablr/bitbucket-migrate",
+  "bugs": {
+    "url": "https://github.com/Innablr/bitbucket-migrate/issues",
+    "email": "info@innablr.com.au"
+  },
+  "keywords": [
+    "bitbucket",
+    "github",
+    "migration",
+    "cli",
+    "utility"
+  ],
   "bin": {
     "bitbucket-migrate": "./index.js"
   },

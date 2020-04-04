@@ -8,7 +8,7 @@ We have been a bit dissatisfied with Bitbucket Cloud, mainly with a lack of repo
 
 I googled for tools to help me migrate our 130+ repos, but didn't find anything useful. [bitbucket-cli](https://bitbucket.org/zhemao/bitbucket-cli) is outdated and uses the deprecated 1.0 Bitbucket API. And this [abomination](https://marketplace.atlassian.com/apps/1211193/bitbucket-command-line-interface-cli?hosting=server&tab=overview) is absolutely ridiculous.
 
-I had a look at the both Bitbucket and Github APIs and figured that both were prettu straightforward, so here it is.
+I had a look at the both Bitbucket and Github APIs and figured that both were pretty straightforward, so here it is.
 
 What it does
 ------
@@ -35,7 +35,7 @@ Error messages sometimes can be cryptic, like `(node:4138) UnhandledPromiseRejec
 How to use it
 ------
 
-Install the tool with `npm install -g bitbucket-migrate`. If you run the `bitbucket-migrate --help` it will show you help.
+Install the tool with `npm install -g bitbucket-migrate`. If you run `bitbucket-migrate --help` it will show you help.
 
 You will need:
  * UUIDs of the teams in Bitbucket you want to migrate across. You can find them in the URL in your browser when you open any of your repos. We had a separate team for archived projects, called innablr-archive, you may have multiple teams as well. If you are migrating your personal repos, take your username instead of the UUID (it should work too, although I haven't tested it)

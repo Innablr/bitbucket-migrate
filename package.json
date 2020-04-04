@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-migrate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Migrates all your repos from Bitbucket to Github Teams",
   "main": "index.js",
   "engines": {

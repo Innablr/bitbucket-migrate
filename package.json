@@ -8,6 +8,7 @@
   },
   "author": "Alex Bukharov <alex.bukharov@innablr.com.au",
   "license": "ISC",
+  "keywords": ["bitbucket", "github", "migration", "cli", "utility"],
   "bin": {
     "bitbucket-migrate": "./index.js"
   },

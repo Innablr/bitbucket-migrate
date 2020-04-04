@@ -1,0 +1,6 @@
+site-packages
+node_modules
+python_lib
+*.zip
+.idea
+.DS_Store

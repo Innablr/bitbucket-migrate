@@ -1,0 +1,23 @@
+{
+  "name": "bitbucket-migrate",
+  "version": "1.0.0",
+  "description": "Migrates all your repos from Bitbucket to Github Teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No tests, sorry"
+  },
+  "author": "Alex Bukharov <alex.bukharov@innablr.com.au",
+  "license": "ISC",
+  "bin": {
+    "bitbucket-migrate": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "simple-git": "^1.132.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}

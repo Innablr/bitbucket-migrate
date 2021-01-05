@@ -31,7 +31,7 @@
     "bitbucket-migrate": "./index.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "simple-git": "^1.132.0",
     "yargs": "^15.3.1"
   },
